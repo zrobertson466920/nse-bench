@@ -1,0 +1,32 @@
+{
+  "selected_benchmarks": [
+    "MMLU-Pro",
+    "ARC-AGI-2",
+    "IFEval",
+    "HMMT Feb 2025",
+    "MATH-500",
+    "SWE-bench Verified",
+    "HumanEval"
+  ],
+  "selected_benchmark_ids": [
+    "mmlu_pro",
+    "arc_agi_2",
+    "ifeval",
+    "hmmt_2025",
+    "math_500",
+    "swe_bench_verified",
+    "humaneval"
+  ],
+  "n_selected": 7,
+  "selection_method": "greedy forward selection",
+  "selection_criterion": "minimize ridge regression MAE on z-scored filtered imputed matrix",
+  "selection_order": [
+    "MMLU-Pro",
+    "ARC-AGI-2",
+    "IFEval",
+    "HMMT Feb 2025",
+    "MATH-500",
+    "SWE-bench Verified",
+    "HumanEval"
+  ]
+}

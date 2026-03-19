@@ -1,0 +1,23 @@
+{
+  "selected_benchmarks": [
+    "GSM8K",
+    "CritPt",
+    "Chatbot Arena Elo",
+    "BRUMO 2025",
+    "GPQA Diamond",
+    "SMT 2025",
+    "AIME 2025"
+  ],
+  "selected_benchmark_ids": [
+    "gsm8k",
+    "critpt",
+    "chatbot_arena_elo",
+    "brumo_2025",
+    "gpqa_diamond",
+    "smt_2025",
+    "aime_2025"
+  ],
+  "n_selected": 7,
+  "method": "Greedy forward selection (correlation-based)",
+  "selection_criterion": "Maximize average |pairwise correlation| with non-selected benchmarks"
+}

@@ -1,0 +1,24 @@
+{
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize average LOO-MAE using Ridge regression from subset to remaining benchmarks on filtered matrix",
+  "selected_benchmarks": [
+    "Codeforces Rating",
+    "Terminal-Bench 2.0",
+    "Chatbot Arena Elo",
+    "ARC-AGI-2",
+    "ARC-AGI-1",
+    "HumanEval",
+    "AIME 2025"
+  ],
+  "selected_benchmark_ids": [
+    "codeforces_rating",
+    "terminal_bench",
+    "chatbot_arena_elo",
+    "arc_agi_2",
+    "arc_agi_1",
+    "humaneval",
+    "aime_2025"
+  ],
+  "n_selected": 7,
+  "final_loo_mae": 4.2847
+}

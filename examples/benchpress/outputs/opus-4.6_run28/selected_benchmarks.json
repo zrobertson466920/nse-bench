@@ -1,0 +1,24 @@
+{
+  "selected_benchmarks": [
+    "GPQA Diamond",
+    "HMMT Nov 2025",
+    "GSM8K",
+    "Tau-Bench Retail",
+    "HMMT Feb 2025",
+    "FrontierMath",
+    "SMT 2025"
+  ],
+  "selected_benchmark_ids": [
+    "gpqa_diamond",
+    "hmmt_nov_2025",
+    "gsm8k",
+    "tau_bench_retail",
+    "hmmt_2025",
+    "frontiermath",
+    "smt_2025"
+  ],
+  "n_selected": 7,
+  "selection_method": "greedy_forward_selection",
+  "selection_criterion": "Minimize LOO MAE (hat-matrix trick) on remaining benchmarks using ridge regression on min-max normalized imputed matrix",
+  "ridge_alpha": 10.0
+}

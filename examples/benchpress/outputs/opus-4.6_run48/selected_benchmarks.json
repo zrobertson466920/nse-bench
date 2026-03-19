@@ -1,0 +1,25 @@
+{
+  "selected_benchmarks": [
+    "MMLU-Pro",
+    "CritPt",
+    "AIME 2024",
+    "SWE-bench Verified",
+    "ARC-AGI-1",
+    "HMMT Feb 2025",
+    "Arena-Hard Auto",
+    "SMT 2025"
+  ],
+  "selected_benchmark_ids": [
+    "mmlu_pro",
+    "critpt",
+    "aime_2024",
+    "swe_bench_verified",
+    "arc_agi_1",
+    "hmmt_2025",
+    "arena_hard",
+    "smt_2025"
+  ],
+  "n_selected": 8,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize_ridge_mae_on_remaining"
+}

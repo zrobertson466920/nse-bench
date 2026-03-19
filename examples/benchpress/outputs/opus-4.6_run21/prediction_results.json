@@ -1,0 +1,24 @@
+{
+  "method": "Ridge regression from 7 selected benchmarks to each target",
+  "overall_mae": 7.053400037727564,
+  "per_benchmark_mae": {
+    "GPQA Diamond": 3.67568032072492,
+    "AIME 2025": 5.236384430561055,
+    "MMLU": 2.470803777514541,
+    "MMLU-Pro": 5.3528790477960655,
+    "SWE-bench Verified": 2.7677066669138264,
+    "LiveCodeBench": 12.219850772725266,
+    "HLE (Humanity's Last Exam)": 28.13801652890084,
+    "SimpleQA": 3.065553878564519,
+    "IFEval": 4.141119539116927,
+    "Codeforces Rating": 8.09214236852158,
+    "AIME 2024": 4.454215609023632,
+    "HMMT Feb 2025": 6.3372877773092195,
+    "ARC-AGI-1": 5.166644208565854
+  },
+  "evaluation_protocol": "Leave-one-model-out on 0-100 normalized scale",
+  "n_predictor_benchmarks": 7,
+  "achieves_mae_under_5": false,
+  "alpha": 10.0,
+  "note": "MAE is on 0-100 min-max normalized scale per benchmark"
+}

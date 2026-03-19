@@ -1,0 +1,35 @@
+{
+  "selected_benchmarks": [
+    "ARC-AGI-1",
+    "BRUMO 2025",
+    "OSWorld",
+    "BrowseComp",
+    "GSM8K",
+    "Video-MMU",
+    "MMMU-Pro",
+    "Terminal-Bench 1.0"
+  ],
+  "selected_benchmark_ids": [
+    "arc_agi_1",
+    "brumo_2025",
+    "osworld",
+    "browsecomp",
+    "gsm8k",
+    "video_mmu",
+    "mmmu_pro",
+    "terminal_bench_1"
+  ],
+  "n_selected": 8,
+  "selection_method": "greedy_forward_selection",
+  "selection_criterion": "minimize_5fold_CV_ridge_MAE_on_imputed_matrix",
+  "selection_order": [
+    "ARC-AGI-1",
+    "BRUMO 2025",
+    "OSWorld",
+    "BrowseComp",
+    "GSM8K",
+    "Video-MMU",
+    "MMMU-Pro",
+    "Terminal-Bench 1.0"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "selected_benchmarks": [
+    "CritPt",
+    "AIME 2024",
+    "MMMU-Pro",
+    "BRUMO 2025",
+    "OSWorld",
+    "Terminal-Bench 1.0",
+    "MathArena Apex 2025"
+  ],
+  "selected_benchmark_ids": [
+    "critpt",
+    "aime_2024",
+    "mmmu_pro",
+    "brumo_2025",
+    "osworld",
+    "terminal_bench_1",
+    "matharena_apex_2025"
+  ],
+  "n_selected": 7,
+  "method": "greedy_forward_LOO_on_svd_completed_matrix",
+  "selection_criterion": "minimize Ridge LOO MAE on completed matrix"
+}

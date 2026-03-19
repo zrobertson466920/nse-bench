@@ -1,0 +1,35 @@
+{
+  "selected_benchmarks": [
+    "MathVision",
+    "Terminal-Bench 2.0",
+    "Codeforces Rating",
+    "HLE (Humanity's Last Exam)",
+    "BrowseComp",
+    "MMMU",
+    "HumanEval",
+    "MMLU"
+  ],
+  "selected_benchmark_ids": [
+    "mathvision",
+    "terminal_bench",
+    "codeforces_rating",
+    "hle",
+    "browsecomp",
+    "mmmu",
+    "humaneval",
+    "mmlu"
+  ],
+  "n_selected": 8,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize_ridge_mae_on_observed",
+  "selection_order": [
+    "MathVision",
+    "Terminal-Bench 2.0",
+    "Codeforces Rating",
+    "HLE (Humanity's Last Exam)",
+    "BrowseComp",
+    "MMMU",
+    "HumanEval",
+    "MMLU"
+  ]
+}

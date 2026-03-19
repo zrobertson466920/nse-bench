@@ -1,0 +1,67 @@
+{
+  "selected_benchmarks": [
+    "LiveCodeBench",
+    "ARC-AGI-2",
+    "HMMT Feb 2025",
+    "Arena-Hard Auto",
+    "SWE-bench Verified",
+    "Terminal-Bench 1.0",
+    "CMIMC 2025",
+    "MMMU"
+  ],
+  "selected_benchmark_ids": [
+    "livecodebench",
+    "arc_agi_2",
+    "hmmt_2025",
+    "arena_hard",
+    "swe_bench_verified",
+    "terminal_bench_1",
+    "cmimc_2025",
+    "mmmu"
+  ],
+  "n_selected": 8,
+  "selection_method": "Greedy forward selection",
+  "selection_criterion": "Minimize leave-one-model-out MAE (ridge regression) on observed entries",
+  "selection_history": [
+    {
+      "step": 1,
+      "benchmark": "LiveCodeBench",
+      "mae": 16.495576953826358
+    },
+    {
+      "step": 2,
+      "benchmark": "ARC-AGI-2",
+      "mae": 14.556051659578204
+    },
+    {
+      "step": 3,
+      "benchmark": "HMMT Feb 2025",
+      "mae": 14.142841011975477
+    },
+    {
+      "step": 4,
+      "benchmark": "Arena-Hard Auto",
+      "mae": 13.697568480153926
+    },
+    {
+      "step": 5,
+      "benchmark": "SWE-bench Verified",
+      "mae": 13.344316882090077
+    },
+    {
+      "step": 6,
+      "benchmark": "Terminal-Bench 1.0",
+      "mae": 13.084531021042135
+    },
+    {
+      "step": 7,
+      "benchmark": "CMIMC 2025",
+      "mae": 12.760883620078644
+    },
+    {
+      "step": 8,
+      "benchmark": "MMMU",
+      "mae": 12.500276965002318
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "selected_benchmarks": [
+    "MMMU",
+    "CritPt",
+    "Tau-Bench Telecom",
+    "USAMO 2025",
+    "HMMT Nov 2025",
+    "Codeforces Rating",
+    "AA Intelligence Index"
+  ],
+  "selected_benchmark_ids": [
+    "mmmu",
+    "critpt",
+    "tau_bench_telecom",
+    "usamo_2025",
+    "hmmt_nov_2025",
+    "codeforces_rating",
+    "aa_intelligence_index"
+  ],
+  "n_selected": 7,
+  "method": "Greedy forward selection",
+  "selection_criterion": "Minimize Ridge (alpha=1.0) residual MAE across all non-selected benchmarks on normalized 0-100 imputed matrix"
+}

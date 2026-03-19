@@ -1,0 +1,29 @@
+{
+  "selected_benchmarks": [
+    "GPQA Diamond",
+    "ARC-AGI-2",
+    "GSM8K",
+    "LiveCodeBench",
+    "LiveBench"
+  ],
+  "selected_benchmark_ids": [
+    "gpqa_diamond",
+    "arc_agi_2",
+    "gsm8k",
+    "livecodebench",
+    "livebench"
+  ],
+  "n_selected": 5,
+  "selection_method": "greedy_forward_selection",
+  "selection_criterion": "Minimize 5-fold CV MAE on min-max normalized 0-100 cleaned matrix. Imputed features, Ridge alpha=1.0.",
+  "full_greedy_order": [
+    "GPQA Diamond",
+    "ARC-AGI-2",
+    "GSM8K",
+    "LiveCodeBench",
+    "LiveBench",
+    "HMMT Nov 2025",
+    "SWE-bench Pro",
+    "MathArena Apex 2025"
+  ]
+}

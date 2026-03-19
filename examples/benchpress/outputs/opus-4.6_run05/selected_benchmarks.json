@@ -1,0 +1,25 @@
+{
+  "selected_benchmarks": [
+    "ARC-AGI-2",
+    "LiveCodeBench",
+    "SimpleQA",
+    "AIME 2025",
+    "Codeforces Rating",
+    "FrontierMath",
+    "GPQA Diamond",
+    "ARC-AGI-1"
+  ],
+  "selected_benchmark_ids": [
+    "arc_agi_2",
+    "livecodebench",
+    "simpleqa",
+    "aime_2025",
+    "codeforces_rating",
+    "frontiermath",
+    "gpqa_diamond",
+    "arc_agi_1"
+  ],
+  "n_selected": 8,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "maximize mean absolute correlation with remaining benchmarks"
+}

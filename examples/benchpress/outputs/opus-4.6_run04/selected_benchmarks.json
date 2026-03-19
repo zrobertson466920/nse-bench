@@ -1,0 +1,32 @@
+{
+  "selected_benchmarks": [
+    "MMLU-Pro",
+    "ARC-AGI-2",
+    "HMMT Feb 2025",
+    "SWE-bench Verified",
+    "AIME 2024",
+    "AIME 2025",
+    "Arena-Hard Auto"
+  ],
+  "selected_benchmark_ids": [
+    "mmlu_pro",
+    "arc_agi_2",
+    "hmmt_2025",
+    "swe_bench_verified",
+    "aime_2024",
+    "aime_2025",
+    "arena_hard"
+  ],
+  "n_selected": 7,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "5-fold CV MAE on min-max normalized imputed matrix, Ridge alpha=10",
+  "selection_order": [
+    "MMLU-Pro",
+    "ARC-AGI-2",
+    "HMMT Feb 2025",
+    "SWE-bench Verified",
+    "AIME 2024",
+    "AIME 2025",
+    "Arena-Hard Auto"
+  ]
+}

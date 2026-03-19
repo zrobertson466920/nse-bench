@@ -1,0 +1,23 @@
+{
+  "selected_benchmarks": [
+    "Chatbot Arena Elo",
+    "AIME 2025",
+    "CritPt",
+    "LiveBench",
+    "GSM8K",
+    "Terminal-Bench 1.0",
+    "HMMT Nov 2025"
+  ],
+  "selected_benchmark_ids": [
+    "chatbot_arena_elo",
+    "aime_2025",
+    "critpt",
+    "livebench",
+    "gsm8k",
+    "terminal_bench_1",
+    "hmmt_nov_2025"
+  ],
+  "n_selected": 7,
+  "method": "greedy_forward_correlation",
+  "selection_criterion": "Greedy: maximize average max-|Pearson correlation| of remaining benchmarks to selected set."
+}

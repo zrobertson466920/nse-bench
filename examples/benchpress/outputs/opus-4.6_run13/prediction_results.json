@@ -1,0 +1,42 @@
+{
+  "method": "ridge_regression",
+  "overall_mae": 9.790284248835759,
+  "per_benchmark_mae": {
+    "GPQA Diamond": 7.8209027103115085,
+    "AIME 2025": 12.081703962109753,
+    "MMLU-Pro": 6.860968028643138,
+    "MATH-500": 12.596063670042707,
+    "LiveCodeBench": 9.691201601348144,
+    "FrontierMath": 10.689871312173844,
+    "HLE (Humanity's Last Exam)": 9.959851033104064,
+    "BrowseComp": 8.524418144957858,
+    "SimpleQA": 14.086782005022421,
+    "IFEval": 7.631479999693518,
+    "HumanEval": 8.489800251635977,
+    "Codeforces Rating": 11.24048613329711,
+    "OSWorld": 9.568661836318688,
+    "MMMU": 13.630042366551617,
+    "Arena-Hard Auto": 11.466349238753454,
+    "Chatbot Arena Elo": 10.523916906179432,
+    "SWE-bench Pro": 8.979968145556494,
+    "Terminal-Bench 2.0": 9.620399613981034,
+    "Terminal-Bench 1.0": 10.20878252862313,
+    "ARC-AGI-1": 10.966540983836131,
+    "BRUMO 2025": 6.813328618064718,
+    "SMT 2025": 7.257657188122984,
+    "CMIMC 2025": 8.23594574009809,
+    "MathArena Apex 2025": 8.021699953632398
+  },
+  "evaluation_protocol": "leave-one-out on filtered normalized matrix",
+  "n_predictor_benchmarks": 5,
+  "predictor_benchmarks": [
+    "AIME 2024",
+    "ARC-AGI-2",
+    "MMLU",
+    "HMMT Feb 2025",
+    "SWE-bench Verified"
+  ],
+  "achieves_mae_under_5": false,
+  "n_models_evaluated": 65,
+  "n_target_benchmarks": 24
+}

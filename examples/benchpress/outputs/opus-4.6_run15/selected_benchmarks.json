@@ -1,0 +1,29 @@
+{
+  "selected_benchmarks": [
+    "HMMT Feb 2025",
+    "AIME 2024",
+    "Terminal-Bench 1.0",
+    "CMIMC 2025",
+    "GSM8K"
+  ],
+  "selected_benchmark_ids": [
+    "hmmt_2025",
+    "aime_2024",
+    "terminal_bench_1",
+    "cmimc_2025",
+    "gsm8k"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize 5-fold CV MAE using ridge regression on imputed normalized matrix",
+  "all_greedy_order": [
+    "HMMT Feb 2025",
+    "AIME 2024",
+    "Terminal-Bench 1.0",
+    "CMIMC 2025",
+    "GSM8K",
+    "Arena-Hard Auto",
+    "ARC-AGI-2",
+    "Codeforces Rating"
+  ]
+}

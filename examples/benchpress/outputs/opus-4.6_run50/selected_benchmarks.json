@@ -1,0 +1,21 @@
+{
+  "selected_benchmarks": [
+    "GPQA Diamond",
+    "Terminal-Bench 2.0",
+    "SWE-bench Verified",
+    "LiveCodeBench",
+    "Tau-Bench Retail",
+    "AIME 2025"
+  ],
+  "selected_benchmark_ids": [
+    "gpqa_diamond",
+    "terminal_bench",
+    "swe_bench_verified",
+    "livecodebench",
+    "tau_bench_retail",
+    "aime_2025"
+  ],
+  "n_selected": 6,
+  "method": "Greedy forward selection with 5-fold CV Ridge on min-max normalized data",
+  "selection_criterion": "Minimize 5-fold CV MAE; stop when adding a benchmark doesn't improve"
+}

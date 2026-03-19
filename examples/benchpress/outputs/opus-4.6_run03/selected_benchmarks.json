@@ -1,0 +1,13 @@
+{
+  "selected_benchmarks": [
+    "HLE (Humanity's Last Exam)",
+    "Arena-Hard Auto",
+    "AIME 2025",
+    "SimpleQA",
+    "MMLU-Pro"
+  ],
+  "n_selected": 5,
+  "selection_method": "Greedy forward selection (LOO CV, ridge regression, alpha=1.0)",
+  "selection_criterion": "Minimize overall LOO MAE on normalized 0-100 scale across all target benchmarks",
+  "selection_pool": "Top 20 benchmarks by coverage"
+}

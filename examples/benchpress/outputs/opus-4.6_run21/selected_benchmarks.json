@@ -1,0 +1,23 @@
+{
+  "method": "Greedy forward selection with LOO ridge regression (alpha=10)",
+  "selection_criterion": "Minimize mean LOO MAE across non-selected target benchmarks on 0-100 normalized scale",
+  "selected_benchmarks": [
+    "FrontierMath",
+    "Chatbot Arena Elo",
+    "ARC-AGI-2",
+    "Terminal-Bench 2.0",
+    "MMMU",
+    "HumanEval",
+    "MATH-500"
+  ],
+  "selected_benchmark_ids": [
+    "frontiermath",
+    "chatbot_arena_elo",
+    "arc_agi_2",
+    "terminal_bench",
+    "mmmu",
+    "humaneval",
+    "math_500"
+  ],
+  "n_selected": 7
+}

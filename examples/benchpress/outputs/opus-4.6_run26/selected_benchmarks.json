@@ -1,0 +1,29 @@
+{
+  "selected_benchmarks": [
+    "AIME 2024",
+    "ARC-AGI-2",
+    "MMLU",
+    "HMMT Feb 2025",
+    "SWE-bench Verified"
+  ],
+  "selected_benchmark_ids": [
+    "aime_2024",
+    "arc_agi_2",
+    "mmlu",
+    "hmmt_2025",
+    "swe_bench_verified"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize_LOO_MAE_ridge_regression",
+  "full_selection_order": [
+    "AIME 2024",
+    "ARC-AGI-2",
+    "MMLU",
+    "HMMT Feb 2025",
+    "SWE-bench Verified",
+    "SimpleQA",
+    "CMIMC 2025",
+    "MATH-500"
+  ]
+}

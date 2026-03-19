@@ -1,0 +1,32 @@
+{
+  "selected_benchmarks": [
+    "Tau-Bench Retail",
+    "GSM8K",
+    "HMMT Feb 2025",
+    "HMMT Nov 2025",
+    "BrowseComp",
+    "MATH-500",
+    "SWE-bench Verified"
+  ],
+  "selected_benchmark_ids": [
+    "tau_bench_retail",
+    "gsm8k",
+    "hmmt_2025",
+    "hmmt_nov_2025",
+    "browsecomp",
+    "math_500",
+    "swe_bench_verified"
+  ],
+  "n_selected": 7,
+  "selection_method": "greedy_forward_selection",
+  "selection_criterion": "minimize OLS projection MAE on normalized imputed matrix",
+  "selection_order": [
+    "Tau-Bench Retail",
+    "GSM8K",
+    "HMMT Feb 2025",
+    "HMMT Nov 2025",
+    "BrowseComp",
+    "MATH-500",
+    "SWE-bench Verified"
+  ]
+}

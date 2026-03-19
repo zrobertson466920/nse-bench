@@ -1,0 +1,39 @@
+{
+  "selected_benchmarks": [
+    "GPQA Diamond",
+    "ARC-AGI-2",
+    "AIME 2025",
+    "SWE-bench Verified",
+    "LiveCodeBench"
+  ],
+  "selected_benchmark_ids": [
+    "gpqa_diamond",
+    "arc_agi_2",
+    "aime_2025",
+    "swe_bench_verified",
+    "livecodebench"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize 5-fold CV MAE (Ridge, alpha=10) on normalized [0,100] scale",
+  "all_candidates_ordered": [
+    "GPQA Diamond",
+    "ARC-AGI-2",
+    "AIME 2025",
+    "SWE-bench Verified",
+    "LiveCodeBench",
+    "GSM8K",
+    "Tau-Bench Retail",
+    "LiveBench"
+  ],
+  "prefix_cv_mae": [
+    14.128857532905343,
+    13.22238142554052,
+    12.708205786691245,
+    12.444700235944593,
+    12.46473809366396,
+    12.427129615584867,
+    12.50521521821305,
+    12.608509487130403
+  ]
+}

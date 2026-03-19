@@ -1,0 +1,54 @@
+{
+  "selected_benchmarks": [
+    "AIME 2024",
+    "ARC-AGI-2",
+    "MMLU",
+    "HMMT Feb 2025",
+    "SWE-bench Verified"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize LOO ridge regression MAE on normalized 0-100 scale",
+  "selection_log": [
+    {
+      "step": 1,
+      "added": "AIME 2024",
+      "loo_mae": 11.028453155166792
+    },
+    {
+      "step": 2,
+      "added": "ARC-AGI-2",
+      "loo_mae": 10.563141678195757
+    },
+    {
+      "step": 3,
+      "added": "MMLU",
+      "loo_mae": 10.264031938204175
+    },
+    {
+      "step": 4,
+      "added": "HMMT Feb 2025",
+      "loo_mae": 10.078555985649396
+    },
+    {
+      "step": 5,
+      "added": "SWE-bench Verified",
+      "loo_mae": 9.790284248835759
+    },
+    {
+      "step": 6,
+      "added": "SimpleQA",
+      "loo_mae": 9.69356765872577
+    },
+    {
+      "step": 7,
+      "added": "Terminal-Bench 1.0",
+      "loo_mae": 9.616958599520773
+    },
+    {
+      "step": 8,
+      "added": "MATH-500",
+      "loo_mae": 9.530470937403024
+    }
+  ]
+}

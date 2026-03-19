@@ -1,0 +1,20 @@
+{
+  "selected_benchmarks": [
+    "GPQA Diamond",
+    "MMLU",
+    "LiveCodeBench",
+    "MATH-500",
+    "IFEval"
+  ],
+  "selected_benchmark_ids": [
+    "gpqa_diamond",
+    "mmlu",
+    "livecodebench",
+    "math_500",
+    "ifeval"
+  ],
+  "n_selected": 5,
+  "selection_method": "greedy_forward_max_correlation",
+  "selection_criterion": "Maximize average max absolute correlation between each non-selected benchmark and the selected set, with mild coverage bonus",
+  "selection_details": "At each step, add benchmark maximizing mean(max|corr(target, subset)|) over all non-subset benchmarks, weighted by coverage^0.3. Correlations computed on rank-5 soft-imputed matrix."
+}

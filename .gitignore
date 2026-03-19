@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Agent scratch files
+scratch.py
+
+# Virtual environments
+test_venv/
+venv/
+.venv/
+
+# Test artifacts
+test/
+
+# OS
+.DS_Store
+
+# Experiment results (run fresh, don't commit)
+results/
+
+# Editor
+*.swp
+*.swo

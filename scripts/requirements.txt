@@ -1,0 +1,10 @@
+# BenchPress Reliability Audit — Pre-registration Dependencies
+# Core agent infrastructure (from LLM_Document_Trees)
+anthropic>=0.40.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+pandas>=2.0
+
+# Agent execution environment (available to analysis agents)
+# These are the packages agents can import in scratch.py

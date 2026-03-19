@@ -1,0 +1,61 @@
+{
+  "selected_benchmarks": [
+    "Codeforces Rating",
+    "Chatbot Arena Elo",
+    "LiveCodeBench",
+    "HMMT Feb 2025",
+    "ARC-AGI-2"
+  ],
+  "selected_benchmark_ids": [
+    "codeforces_rating",
+    "chatbot_arena_elo",
+    "livecodebench",
+    "hmmt_2025",
+    "arc_agi_2"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize training MAE (ridge regression) predicting all other benchmarks",
+  "all_steps": [
+    {
+      "step": 1,
+      "benchmark": "Codeforces Rating",
+      "benchmark_id": "codeforces_rating"
+    },
+    {
+      "step": 2,
+      "benchmark": "Chatbot Arena Elo",
+      "benchmark_id": "chatbot_arena_elo"
+    },
+    {
+      "step": 3,
+      "benchmark": "LiveCodeBench",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "step": 4,
+      "benchmark": "HMMT Feb 2025",
+      "benchmark_id": "hmmt_2025"
+    },
+    {
+      "step": 5,
+      "benchmark": "ARC-AGI-2",
+      "benchmark_id": "arc_agi_2"
+    },
+    {
+      "step": 6,
+      "benchmark": "Arena-Hard Auto",
+      "benchmark_id": "arena_hard"
+    },
+    {
+      "step": 7,
+      "benchmark": "AIME 2024",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "step": 8,
+      "benchmark": "ARC-AGI-1",
+      "benchmark_id": "arc_agi_1"
+    }
+  ]
+}

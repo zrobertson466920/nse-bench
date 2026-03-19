@@ -1,0 +1,19 @@
+{
+  "selected_benchmarks": [
+    "GPQA Diamond",
+    "SMT 2025",
+    "ARC-AGI-2",
+    "GSM8K",
+    "HMMT Feb 2025"
+  ],
+  "selected_benchmark_ids": [
+    "gpqa_diamond",
+    "smt_2025",
+    "arc_agi_2",
+    "gsm8k",
+    "hmmt_2025"
+  ],
+  "n_selected": 5,
+  "selection_method": "greedy_forward_ridge_loo",
+  "selection_criterion": "minimize LOO MAE (Ridge, alpha=10) on normalized 0-100 scale"
+}

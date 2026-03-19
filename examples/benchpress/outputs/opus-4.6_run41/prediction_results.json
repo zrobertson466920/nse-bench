@@ -1,0 +1,30 @@
+{
+  "method": "Ridge regression (alpha=1.0), top-8 correlated predictors per target",
+  "evaluation_protocol": "LOO per model, top-8 correlated benchmarks as predictors, 0-100 normalized",
+  "overall_mae": 14.7223,
+  "per_benchmark_mae": {
+    "AIME 2024": 2.2454,
+    "ARC-AGI-2": 72.0791,
+    "BrowseComp": 30.5578,
+    "BRUMO 2025": 7.8335,
+    "Chatbot Arena Elo": 70.6928,
+    "CMIMC 2025": 7.3621,
+    "Codeforces Rating": 9.1469,
+    "CritPt": 12.6527,
+    "FrontierMath": 3.2533,
+    "GPQA Diamond": 7.1422,
+    "GSM8K": 16.665,
+    "HMMT Nov 2025": 14.2406,
+    "IFEval": 9.8289,
+    "LiveBench": 9.1765,
+    "LiveCodeBench": 3.2566,
+    "MATH-500": 7.6039,
+    "MathArena Apex 2025": 55.139,
+    "MMMU": 35.5526,
+    "SMT 2025": 3.5505,
+    "SWE-bench Pro": 39.3713
+  },
+  "n_predictor_benchmarks": 8,
+  "achieves_mae_under_5": false,
+  "scale": "0-100 per-benchmark min-max normalized"
+}

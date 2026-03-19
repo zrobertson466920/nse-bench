@@ -1,0 +1,32 @@
+{
+  "method": "Ridge regression (alpha=1.0) from selected benchmark subset to each target",
+  "overall_mae": 10.490723416889336,
+  "per_benchmark_mae": {
+    "AIME 2024": 12.22754475962798,
+    "ARC-AGI-1": 9.843960689398854,
+    "ARC-AGI-2": 2.071629456028293,
+    "BRUMO 2025": 30.428172332223777,
+    "Codeforces Rating": 15.094812041403133,
+    "CritPt": 7.9545192829372695,
+    "FrontierMath": 18.057168976288892,
+    "GPQA Diamond": 5.129979753513435,
+    "HMMT Feb 2025": 10.79467976999001,
+    "HumanEval": 14.15497284867098,
+    "IFEval": 6.555936880189064,
+    "LiveCodeBench": 8.409816792252952,
+    "MATH-500": 3.3036431393741017,
+    "MMLU": 5.202189996252006,
+    "MMMU": 14.505115446873358,
+    "SMT 2025": 2.7144425330710638,
+    "SWE-bench Verified": 19.650831808889816,
+    "Terminal-Bench 2.0": 10.378968979363721,
+    "Terminal-Bench 1.0": 12.027503968745991,
+    "USAMO 2025": 17.853690387106116
+  },
+  "evaluation_protocol": "Leave-one-model-out CV on normalized 0-100 scale",
+  "n_predictor_benchmarks": 5,
+  "n_target_benchmarks": 20,
+  "n_total_predictions": 192,
+  "achieves_mae_under_5": false,
+  "achieves_mae_under_10": false
+}

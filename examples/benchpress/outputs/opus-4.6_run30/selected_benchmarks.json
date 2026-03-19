@@ -1,0 +1,19 @@
+{
+  "selected_benchmarks": [
+    "BRUMO 2025",
+    "MRCR v2",
+    "GSM8K",
+    "AA Long Context Reasoning",
+    "CritPt"
+  ],
+  "selected_benchmark_ids": [
+    "brumo_2025",
+    "mrcr_v2",
+    "gsm8k",
+    "aa_lcr",
+    "critpt"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "maximize average max absolute correlation of unselected benchmarks with selected set"
+}

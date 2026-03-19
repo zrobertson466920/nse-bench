@@ -1,0 +1,24 @@
+{
+  "selected_benchmarks": [
+    "BrowseComp",
+    "LiveBench",
+    "GPQA Diamond",
+    "AIME 2025",
+    "MMLU",
+    "SWE-bench Verified",
+    "Terminal-Bench 2.0"
+  ],
+  "selected_benchmark_ids": [
+    "browsecomp",
+    "livebench",
+    "gpqa_diamond",
+    "aime_2025",
+    "mmlu",
+    "swe_bench_verified",
+    "terminal_bench"
+  ],
+  "n_selected": 7,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize LOO Ridge MAE on non-selected benchmarks (normalized 0-100 scale)",
+  "alpha": 10.0
+}

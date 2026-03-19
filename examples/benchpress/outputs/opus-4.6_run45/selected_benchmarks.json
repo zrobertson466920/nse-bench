@@ -1,0 +1,53 @@
+{
+  "selected_benchmarks": [
+    "MMLU-Pro",
+    "CritPt",
+    "SMT 2025",
+    "ARC-AGI-1",
+    "OSWorld"
+  ],
+  "selected_benchmark_ids": [
+    "mmlu_pro",
+    "critpt",
+    "smt_2025",
+    "arc_agi_1",
+    "osworld"
+  ],
+  "n_selected": 5,
+  "selection_method": "greedy_forward_ridge",
+  "selection_criterion": "minimize training MAE of ridge regression from selected to all benchmarks",
+  "selection_order": [
+    [
+      "MMLU-Pro",
+      0.4858968959513999
+    ],
+    [
+      "CritPt",
+      0.47102150790158687
+    ],
+    [
+      "SMT 2025",
+      0.4593987133197047
+    ],
+    [
+      "ARC-AGI-1",
+      0.45219679920330186
+    ],
+    [
+      "OSWorld",
+      0.4446398680614211
+    ],
+    [
+      "HMMT Feb 2025",
+      0.43457714541292275
+    ],
+    [
+      "IFEval",
+      0.42649338676053794
+    ],
+    [
+      "Terminal-Bench 1.0",
+      0.4207241190460089
+    ]
+  ]
+}

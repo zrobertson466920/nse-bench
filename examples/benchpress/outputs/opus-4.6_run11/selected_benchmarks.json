@@ -1,0 +1,25 @@
+{
+  "selected_benchmarks": [
+    "LiveCodeBench",
+    "BRUMO 2025",
+    "Terminal-Bench 1.0",
+    "BrowseComp",
+    "SWE-bench Pro",
+    "MMMU",
+    "Codeforces Rating",
+    "Arena-Hard Auto"
+  ],
+  "selected_benchmark_ids": [
+    "livecodebench",
+    "brumo_2025",
+    "terminal_bench_1",
+    "browsecomp",
+    "swe_bench_pro",
+    "mmmu",
+    "codeforces_rating",
+    "arena_hard"
+  ],
+  "n_selected": 8,
+  "selection_method": "Greedy forward selection minimizing Ridge regression MAE on observed entries",
+  "selection_criterion": "Minimum MAE on normalized 0-100 scale"
+}

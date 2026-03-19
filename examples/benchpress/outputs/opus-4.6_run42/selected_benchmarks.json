@@ -1,0 +1,23 @@
+{
+  "selected_benchmarks": [
+    "Chatbot Arena Elo",
+    "AIME 2025",
+    "GPQA Diamond",
+    "BRUMO 2025",
+    "CritPt",
+    "SMT 2025",
+    "ARC-AGI-2"
+  ],
+  "selected_benchmark_ids": [
+    "chatbot_arena_elo",
+    "aime_2025",
+    "gpqa_diamond",
+    "brumo_2025",
+    "critpt",
+    "smt_2025",
+    "arc_agi_2"
+  ],
+  "n_selected": 7,
+  "selection_method": "Greedy forward selection maximizing mean absolute correlation with unselected benchmarks",
+  "selection_criterion": "Mean absolute Pearson correlation with remaining benchmarks"
+}

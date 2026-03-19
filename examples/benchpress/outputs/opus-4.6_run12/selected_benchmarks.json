@@ -1,0 +1,24 @@
+{
+  "selected_benchmarks": [
+    "HMMT Feb 2025",
+    "IMO 2025",
+    "CMIMC 2025",
+    "Terminal-Bench 1.0",
+    "GSM8K",
+    "SimpleBench",
+    "IFBench"
+  ],
+  "selected_benchmark_ids": [
+    "hmmt_2025",
+    "imo_2025",
+    "cmimc_2025",
+    "terminal_bench_1",
+    "gsm8k",
+    "simplebench",
+    "ifbench"
+  ],
+  "n_selected": 7,
+  "selection_method": "greedy_forward_selection",
+  "selection_criterion": "minimize_LOO_model_MAE_ridge_regression",
+  "ridge_alpha": 10.0
+}

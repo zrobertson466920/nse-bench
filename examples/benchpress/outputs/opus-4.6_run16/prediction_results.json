@@ -1,0 +1,32 @@
+{
+  "method": "soft_impute_svd_minmax_normalized",
+  "rank": 4,
+  "overall_mae_normalized_0_100": 16.677,
+  "overall_mae": 16.677,
+  "per_benchmark_mae": {
+    "AIME 2024": 7.644,
+    "AIME 2025": 13.9626,
+    "ARC-AGI-1": 13.2476,
+    "ARC-AGI-2": 28.7981,
+    "Arena-Hard Auto": 25.1404,
+    "Chatbot Arena Elo": 18.1233,
+    "Codeforces Rating": 7.476,
+    "FrontierMath": 52.1692,
+    "GPQA Diamond": 10.0467,
+    "HLE (Humanity's Last Exam)": 23.7518,
+    "HMMT Feb 2025": 14.9428,
+    "HumanEval": 10.0558,
+    "IFEval": 6.3133,
+    "LiveCodeBench": 9.4749,
+    "MATH-500": 7.8094,
+    "MMLU": 8.3834,
+    "MMLU-Pro": 8.2752,
+    "MMMU": 44.8479,
+    "SimpleQA": 22.5161,
+    "SWE-bench Verified": 30.3415,
+    "Terminal-Bench 2.0": 17.8094
+  },
+  "evaluation_protocol": "LOO on 300 random held-out cells, MAE on 0-100 min-max normalized scale",
+  "n_predictor_benchmarks": 21,
+  "achieves_mae_under_5": false
+}

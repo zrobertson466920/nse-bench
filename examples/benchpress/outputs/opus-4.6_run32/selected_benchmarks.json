@@ -1,0 +1,36 @@
+{
+  "selected_benchmarks": [
+    "BrowseComp",
+    "HMMT Nov 2025",
+    "AA Long Context Reasoning",
+    "MathArena Apex 2025",
+    "Terminal-Bench 2.0",
+    "ARC-AGI-2",
+    "HLE (Humanity's Last Exam)",
+    "Chatbot Arena Elo"
+  ],
+  "selected_benchmark_ids": [
+    "browsecomp",
+    "hmmt_nov_2025",
+    "aa_lcr",
+    "matharena_apex_2025",
+    "terminal_bench",
+    "arc_agi_2",
+    "hle",
+    "chatbot_arena_elo"
+  ],
+  "n_selected": 8,
+  "selection_method": "greedy_forward_selection",
+  "selection_criterion": "LOO ridge regression MAE on normalized (0-100) scale",
+  "all_candidates_evaluated": 45,
+  "subset_size_vs_mae": {
+    "1": 11.651997246852837,
+    "2": 10.515313228122539,
+    "3": 6.13585182653486,
+    "4": 5.665280609783256,
+    "5": 4.8654672795577145,
+    "6": 4.3105301546689025,
+    "7": 3.9314867409837704,
+    "8": 3.6295117523721734
+  }
+}

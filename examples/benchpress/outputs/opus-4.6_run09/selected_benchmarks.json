@@ -1,0 +1,61 @@
+{
+  "selected_benchmarks": [
+    "LiveCodeBench",
+    "ARC-AGI-2",
+    "HMMT Feb 2025",
+    "Arena-Hard Auto",
+    "SWE-bench Verified"
+  ],
+  "selected_benchmark_ids": [
+    "livecodebench",
+    "arc_agi_2",
+    "hmmt_2025",
+    "arena_hard",
+    "swe_bench_verified"
+  ],
+  "n_selected": 5,
+  "selection_method": "greedy forward selection with leave-one-model-out ridge regression",
+  "selection_criterion": "minimize LOMO MAE on normalized 0-100 scale, stop when marginal gain < 0.3",
+  "all_steps": [
+    {
+      "step": 1,
+      "added": "LiveCodeBench",
+      "mae": 16.495806499649944
+    },
+    {
+      "step": 2,
+      "added": "ARC-AGI-2",
+      "mae": 14.556459197529737
+    },
+    {
+      "step": 3,
+      "added": "HMMT Feb 2025",
+      "mae": 14.143202075976847
+    },
+    {
+      "step": 4,
+      "added": "Arena-Hard Auto",
+      "mae": 13.697978161735154
+    },
+    {
+      "step": 5,
+      "added": "SWE-bench Verified",
+      "mae": 13.344572899878772
+    },
+    {
+      "step": 6,
+      "added": "Terminal-Bench 1.0",
+      "mae": 13.084697326553604
+    },
+    {
+      "step": 7,
+      "added": "CMIMC 2025",
+      "mae": 12.761019230225074
+    },
+    {
+      "step": 8,
+      "added": "MMMU",
+      "mae": 12.500294296393939
+    }
+  ]
+}

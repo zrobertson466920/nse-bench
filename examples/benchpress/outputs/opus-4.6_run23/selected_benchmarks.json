@@ -1,0 +1,19 @@
+{
+  "selected_benchmarks": [
+    "ARC-AGI-2",
+    "LiveCodeBench",
+    "CMIMC 2025",
+    "SMT 2025",
+    "Arena-Hard Auto"
+  ],
+  "selected_benchmark_ids": [
+    "arc_agi_2",
+    "livecodebench",
+    "cmimc_2025",
+    "smt_2025",
+    "arena_hard"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_correlation_coverage",
+  "selection_criterion": "maximize average max-|correlation| between selected set and remaining benchmarks"
+}

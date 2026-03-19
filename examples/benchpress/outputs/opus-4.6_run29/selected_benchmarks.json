@@ -1,0 +1,29 @@
+{
+  "selected_benchmarks": [
+    "GPQA Diamond",
+    "LiveCodeBench",
+    "HumanEval",
+    "AIME 2025",
+    "SimpleQA"
+  ],
+  "selected_benchmark_ids": [
+    "gpqa_diamond",
+    "livecodebench",
+    "humaneval",
+    "aime_2025",
+    "simpleqa"
+  ],
+  "n_selected": 5,
+  "selection_method": "Greedy forward by avg|correlation|+coverage on imputed normalized matrix",
+  "selection_criterion": "0.7*avg|corr_with_remaining| + 0.3*coverage_fraction",
+  "all_selected_ordered": [
+    "GPQA Diamond",
+    "LiveCodeBench",
+    "HumanEval",
+    "AIME 2025",
+    "SimpleQA",
+    "IFEval",
+    "MMLU-Pro",
+    "ARC-AGI-2"
+  ]
+}

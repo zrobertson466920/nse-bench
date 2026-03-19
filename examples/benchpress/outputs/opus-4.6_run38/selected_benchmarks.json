@@ -1,0 +1,25 @@
+{
+  "selected_benchmarks": [
+    "BrowseComp",
+    "Terminal-Bench 2.0",
+    "MMMU",
+    "AIME 2025",
+    "BRUMO 2025",
+    "MMLU",
+    "HMMT Nov 2025",
+    "SWE-bench Pro"
+  ],
+  "selected_benchmark_ids": [
+    "browsecomp",
+    "terminal_bench",
+    "mmmu",
+    "aime_2025",
+    "brumo_2025",
+    "mmlu",
+    "hmmt_nov_2025",
+    "swe_bench_pro"
+  ],
+  "n_selected": 8,
+  "method": "Greedy forward selection minimizing LOO ridge regression MAE",
+  "selection_criterion": "Leave-one-out MAE on normalized 0-100 scale"
+}

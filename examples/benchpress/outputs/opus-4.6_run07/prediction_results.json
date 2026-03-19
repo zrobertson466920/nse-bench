@@ -1,0 +1,33 @@
+{
+  "method": "Ridge regression from selected benchmarks to targets",
+  "overall_mae": 23.119492015628545,
+  "per_benchmark_mae": {
+    "AIME 2024": 4.95493633456495,
+    "AIME 2025": 11.253301254288427,
+    "ARC-AGI-1": 15.193164465985877,
+    "Arena-Hard Auto": 28.525783388486445,
+    "BrowseComp": 9.026094194863884,
+    "BRUMO 2025": 2.419365116692319,
+    "Chatbot Arena Elo": 26.064434162859342,
+    "CMIMC 2025": 7.361423561571368,
+    "Codeforces Rating": 272.0869721439619,
+    "CritPt": 2.2097117569971436,
+    "FrontierMath": 5.108989313426579,
+    "GPQA Diamond": 4.817767942962858,
+    "HLE (Humanity's Last Exam)": 5.283869679818157,
+    "LiveCodeBench": 3.8043880798465763,
+    "MathArena Apex 2025": 13.942600618047617,
+    "MMLU": 3.0965813405701885,
+    "MMMU": 2.1816874727574103,
+    "MMMU-Pro": 10.460409996293427,
+    "OSWorld": 20.134600104717997,
+    "SimpleQA": 11.392486666578716,
+    "SMT 2025": 4.86113608054298,
+    "SWE-bench Pro": 4.415952558653969,
+    "Terminal-Bench 2.0": 9.225464656325952,
+    "Terminal-Bench 1.0": 10.711026069272856
+  },
+  "evaluation_protocol": "Leave-one-model-out CV on raw-scale filtered matrix",
+  "n_predictor_benchmarks": 7,
+  "achieves_mae_under_5": false
+}

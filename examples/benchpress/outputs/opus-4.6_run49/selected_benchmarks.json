@@ -1,0 +1,23 @@
+{
+  "selected_benchmarks": [
+    "LiveCodeBench",
+    "ARC-AGI-2",
+    "HMMT Feb 2025",
+    "MMLU",
+    "Terminal-Bench 1.0",
+    "SMT 2025",
+    "IFEval"
+  ],
+  "selected_benchmark_ids": [
+    "livecodebench",
+    "arc_agi_2",
+    "hmmt_2025",
+    "mmlu",
+    "terminal_bench_1",
+    "smt_2025",
+    "ifeval"
+  ],
+  "n_selected": 7,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "Minimize Ridge regression MAE from selected subset to remaining benchmarks on z-scored matrix"
+}

@@ -1,0 +1,197 @@
+model_id,model_name,benchmark_id,benchmark_name,y_pred
+claude-opus-4,Claude Opus 4,aime_2024,AIME 2024,92.95280363962314
+claude-opus-4,Claude Opus 4,aime_2025,AIME 2025,85.79163813465095
+claude-opus-4,Claude Opus 4,arc_agi_1,ARC-AGI-1,71.44777368247559
+claude-opus-4,Claude Opus 4,arc_agi_2,ARC-AGI-2,22.219815884956816
+claude-opus-4,Claude Opus 4,codeforces_rating,Codeforces Rating,2423.000952286764
+claude-opus-4,Claude Opus 4,critpt,CritPt,8.033730593962611
+claude-opus-4,Claude Opus 4,frontiermath,FrontierMath,26.02292770753949
+claude-opus-4,Claude Opus 4,gpqa_diamond,GPQA Diamond,86.62175440223858
+claude-opus-4,Claude Opus 4,hle,HLE (Humanity's Last Exam),27.35592485395558
+claude-opus-4,Claude Opus 4,hmmt_2025,HMMT Feb 2025,79.44152812668919
+claude-opus-4,Claude Opus 4,ifeval,IFEval,89.55104804045206
+claude-opus-4,Claude Opus 4,livecodebench,LiveCodeBench,77.94880105958781
+claude-opus-4,Claude Opus 4,math_500,MATH-500,99.1239355493858
+claude-opus-4,Claude Opus 4,mmlu,MMLU,88.52297072976029
+claude-opus-4,Claude Opus 4,mmmu,MMMU,82.3683355869399
+claude-opus-4,Claude Opus 4,simpleqa,SimpleQA,44.58552967195148
+claude-opus-4,Claude Opus 4,swe_bench_pro,SWE-bench Pro,40.12661435732288
+claude-opus-4,Claude Opus 4,tau_bench_retail,Tau-Bench Retail,84.85588961674758
+claude-opus-4,Claude Opus 4,terminal_bench,Terminal-Bench 2.0,41.205695642226715
+claude-opus-4.1,Claude Opus 4.1,frontiermath,FrontierMath,26.3817197209656
+claude-opus-4.1,Claude Opus 4.1,gpqa_diamond,GPQA Diamond,76.29251190737722
+claude-opus-4.1,Claude Opus 4.1,hle,HLE (Humanity's Last Exam),15.760583788278456
+claude-opus-4.1,Claude Opus 4.1,humaneval,HumanEval,85.76402693968541
+claude-opus-4.1,Claude Opus 4.1,mmlu,MMLU,84.41615471151763
+claude-opus-4.1,Claude Opus 4.1,mmlu_pro,MMLU-Pro,81.2666411263412
+claude-opus-4.1,Claude Opus 4.1,simpleqa,SimpleQA,36.60700602015947
+claude-opus-4.1,Claude Opus 4.1,swe_bench_pro,SWE-bench Pro,36.91407421952232
+claude-opus-4.1,Claude Opus 4.1,terminal_bench,Terminal-Bench 2.0,34.63083749642245
+claude-opus-4.1,Claude Opus 4.1,terminal_bench_1,Terminal-Bench 1.0,34.25632341380141
+deepseek-r1-0528,DeepSeek-R1-0528,aime_2024,AIME 2024,86.47336898007373
+deepseek-r1-0528,DeepSeek-R1-0528,aime_2025,AIME 2025,87.7412355835611
+deepseek-r1-0528,DeepSeek-R1-0528,arc_agi_1,ARC-AGI-1,39.94879128861841
+deepseek-r1-0528,DeepSeek-R1-0528,brumo_2025,BRUMO 2025,91.01223202118977
+deepseek-r1-0528,DeepSeek-R1-0528,codeforces_rating,Codeforces Rating,2158.19129084223
+deepseek-r1-0528,DeepSeek-R1-0528,gpqa_diamond,GPQA Diamond,80.63540532256548
+deepseek-r1-0528,DeepSeek-R1-0528,hle,HLE (Humanity's Last Exam),21.726386063600543
+deepseek-r1-0528,DeepSeek-R1-0528,humaneval,HumanEval,87.7695062986451
+deepseek-r1-0528,DeepSeek-R1-0528,ifeval,IFEval,87.98632156252941
+deepseek-r1-0528,DeepSeek-R1-0528,imo_2025,IMO 2025,21.57791463603555
+deepseek-r1-0528,DeepSeek-R1-0528,livecodebench,LiveCodeBench,71.24277396670959
+deepseek-r1-0528,DeepSeek-R1-0528,math_500,MATH-500,94.67273624898381
+deepseek-r1-0528,DeepSeek-R1-0528,matharena_apex_2025,MathArena Apex 2025,0.5523220098972581
+deepseek-r1-0528,DeepSeek-R1-0528,mmlu,MMLU,88.78698610483082
+deepseek-r1-0528,DeepSeek-R1-0528,mmlu_pro,MMLU-Pro,82.53603965940586
+deepseek-r1-0528,DeepSeek-R1-0528,simpleqa,SimpleQA,38.33069013204448
+deepseek-r1-0528,DeepSeek-R1-0528,smt_2025,SMT 2025,85.0798998468039
+deepseek-r1-0528,DeepSeek-R1-0528,swe_bench_verified,SWE-bench Verified,63.7235188033979
+deepseek-r1-0528,DeepSeek-R1-0528,usamo_2025,USAMO 2025,23.44023470626165
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,aime_2024,AIME 2024,101.86998777970614
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,aime_2025,AIME 2025,98.5740723084216
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,browsecomp,BrowseComp,70.29774405314257
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,gpqa_diamond,GPQA Diamond,91.29064730610942
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,hle,HLE (Humanity's Last Exam),35.714690067226826
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,ifeval,IFEval,93.24953366834677
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,mathvision,MathVision,83.29663280540007
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,mmlu,MMLU,91.62315087334574
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,mmmu,MMMU,84.63226075257249
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,swe_bench_verified,SWE-bench Verified,76.98517598656596
+doubao-seed-2.0-pro,Doubao Seed 2.0 Pro,terminal_bench,Terminal-Bench 2.0,48.4654431145589
+gemini-2.5-pro,Gemini 2.5 Pro,aa_intelligence_index,AA Intelligence Index,58.352629359633944
+gemini-2.5-pro,Gemini 2.5 Pro,aime_2024,AIME 2024,88.87560355817122
+gemini-2.5-pro,Gemini 2.5 Pro,aime_2025,AIME 2025,85.68413816161079
+gemini-2.5-pro,Gemini 2.5 Pro,arc_agi_1,ARC-AGI-1,40.30629847158716
+gemini-2.5-pro,Gemini 2.5 Pro,arc_agi_2,ARC-AGI-2,10.276287168479998
+gemini-2.5-pro,Gemini 2.5 Pro,arena_hard,Arena-Hard Auto,83.64205002978812
+gemini-2.5-pro,Gemini 2.5 Pro,brumo_2025,BRUMO 2025,87.48284205156321
+gemini-2.5-pro,Gemini 2.5 Pro,chatbot_arena_elo,Chatbot Arena Elo,1400.8301291848518
+gemini-2.5-pro,Gemini 2.5 Pro,codeforces_rating,Codeforces Rating,2031.8734177499657
+gemini-2.5-pro,Gemini 2.5 Pro,critpt,CritPt,3.743393205772718
+gemini-2.5-pro,Gemini 2.5 Pro,frontiermath,FrontierMath,6.5741697825573535
+gemini-2.5-pro,Gemini 2.5 Pro,gpqa_diamond,GPQA Diamond,80.9125538456291
+gemini-2.5-pro,Gemini 2.5 Pro,hle,HLE (Humanity's Last Exam),16.531650946971567
+gemini-2.5-pro,Gemini 2.5 Pro,hmmt_2025,HMMT Feb 2025,65.82848662059672
+gemini-2.5-pro,Gemini 2.5 Pro,hmmt_nov_2025,HMMT Nov 2025,88.82727959281237
+gemini-2.5-pro,Gemini 2.5 Pro,imo_2025,IMO 2025,4.843189603116627
+gemini-2.5-pro,Gemini 2.5 Pro,livebench,LiveBench,55.14046331545877
+gemini-2.5-pro,Gemini 2.5 Pro,math_500,MATH-500,96.72113365961619
+gemini-2.5-pro,Gemini 2.5 Pro,matharena_apex_2025,MathArena Apex 2025,4.333293487525917
+gemini-2.5-pro,Gemini 2.5 Pro,mmlu,MMLU,89.72305344767639
+gemini-2.5-pro,Gemini 2.5 Pro,mmlu_pro,MMLU-Pro,85.84144688703324
+gemini-2.5-pro,Gemini 2.5 Pro,mmmu,MMMU,75.36367749836174
+gemini-2.5-pro,Gemini 2.5 Pro,mrcr_v2,MRCR v2,43.29444081233446
+gemini-2.5-pro,Gemini 2.5 Pro,simplebench,SimpleBench,65.01940469629673
+gemini-2.5-pro,Gemini 2.5 Pro,simpleqa,SimpleQA,30.68063531271654
+gemini-2.5-pro,Gemini 2.5 Pro,smt_2025,SMT 2025,78.97744721677414
+gemini-2.5-pro,Gemini 2.5 Pro,swe_bench_verified,SWE-bench Verified,63.815063657116596
+gemini-2.5-pro,Gemini 2.5 Pro,terminal_bench_1,Terminal-Bench 1.0,19.427739860486827
+gemini-2.5-pro,Gemini 2.5 Pro,usamo_2025,USAMO 2025,17.29382308722065
+gemini-2.5-pro,Gemini 2.5 Pro,video_mmu,Video-MMU,80.69118866838478
+gpt-4.1,GPT-4.1,aime_2025,AIME 2025,70.2708274385407
+gpt-4.1,GPT-4.1,arc_agi_1,ARC-AGI-1,24.76573231111306
+gpt-4.1,GPT-4.1,arena_hard,Arena-Hard Auto,65.56571436847904
+gpt-4.1,GPT-4.1,codeforces_rating,Codeforces Rating,1621.6928444870384
+gpt-4.1,GPT-4.1,hle,HLE (Humanity's Last Exam),16.558498274767864
+gpt-4.1,GPT-4.1,hmmt_2025,HMMT Feb 2025,58.03027802632095
+gpt-4.1,GPT-4.1,humaneval,HumanEval,86.49912842573261
+gpt-4.1,GPT-4.1,ifeval,IFEval,87.72803437877779
+gpt-4.1,GPT-4.1,livecodebench,LiveCodeBench,56.88042674061593
+gpt-4.1,GPT-4.1,math_500,MATH-500,95.02311532042441
+gpt-4.1,GPT-4.1,mmlu,MMLU,88.1649241881183
+gpt-4.1,GPT-4.1,mmmu,MMMU,77.05175634975157
+gpt-4.1,GPT-4.1,simpleqa,SimpleQA,39.050083815633684
+gpt-4.1,GPT-4.1,swe_bench_verified,SWE-bench Verified,54.45312856723538
+gpt-4.1,GPT-4.1,terminal_bench_1,Terminal-Bench 1.0,26.350604716613354
+grok-3-beta,Grok 3 Beta,aime_2024,AIME 2024,93.44378340409857
+grok-3-beta,Grok 3 Beta,aime_2025,AIME 2025,90.03975044352701
+grok-3-beta,Grok 3 Beta,arc_agi_1,ARC-AGI-1,47.3055253705911
+grok-3-beta,Grok 3 Beta,chatbot_arena_elo,Chatbot Arena Elo,1437.8596937703517
+grok-3-beta,Grok 3 Beta,hle,HLE (Humanity's Last Exam),24.931146978213857
+grok-3-beta,Grok 3 Beta,humaneval,HumanEval,93.35501567182422
+grok-3-beta,Grok 3 Beta,ifeval,IFEval,89.88454273677391
+grok-3-beta,Grok 3 Beta,mmlu_pro,MMLU-Pro,84.1367973588341
+grok-3-beta,Grok 3 Beta,simpleqa,SimpleQA,36.77208718883405
+grok-3-beta,Grok 3 Beta,swe_bench_verified,SWE-bench Verified,68.50752876064163
+grok-4,Grok 4,aa_intelligence_index,AA Intelligence Index,65.3047261125086
+grok-4,Grok 4,aa_lcr,AA Long Context Reasoning,73.8603316983235
+grok-4,Grok 4,aime_2024,AIME 2024,92.26511915710499
+grok-4,Grok 4,arc_agi_2,ARC-AGI-2,20.944974736004855
+grok-4,Grok 4,brumo_2025,BRUMO 2025,94.6432010824384
+grok-4,Grok 4,chatbot_arena_elo,Chatbot Arena Elo,1457.7201848756213
+grok-4,Grok 4,cmimc_2025,CMIMC 2025,84.01189708698399
+grok-4,Grok 4,codeforces_rating,Codeforces Rating,2317.509949214261
+grok-4,Grok 4,frontiermath,FrontierMath,23.674538244596764
+grok-4,Grok 4,gpqa_diamond,GPQA Diamond,84.82875464639673
+grok-4,Grok 4,hle,HLE (Humanity's Last Exam),32.068106024205385
+grok-4,Grok 4,hmmt_nov_2025,HMMT Nov 2025,89.83253788975787
+grok-4,Grok 4,ifeval,IFEval,89.11003443921561
+grok-4,Grok 4,imo_2025,IMO 2025,35.32468012134366
+grok-4,Grok 4,livecodebench,LiveCodeBench,76.37286898049281
+grok-4,Grok 4,matharena_apex_2025,MathArena Apex 2025,6.44590772881222
+grok-4,Grok 4,mmlu,MMLU,89.09506991799014
+grok-4,Grok 4,mmlu_pro,MMLU-Pro,84.7096924338565
+grok-4,Grok 4,mmmu,MMMU,82.23322211117122
+grok-4,Grok 4,mmmu_pro,MMMU-Pro,78.47399517710105
+grok-4,Grok 4,osworld,OSWorld,49.50989588999775
+grok-4,Grok 4,simpleqa,SimpleQA,49.437268363432096
+grok-4,Grok 4,smt_2025,SMT 2025,89.04008043717396
+grok-4,Grok 4,swe_bench_pro,SWE-bench Pro,44.4995639264801
+grok-4,Grok 4,swe_bench_verified,SWE-bench Verified,73.06864227283657
+grok-4,Grok 4,terminal_bench,Terminal-Bench 2.0,43.45328082736136
+grok-4,Grok 4,terminal_bench_1,Terminal-Bench 1.0,36.34609339684826
+grok-4,Grok 4,usamo_2025,USAMO 2025,23.043438068704297
+kimi-k2,Kimi K2,aime_2024,AIME 2024,73.0027911077104
+kimi-k2,Kimi K2,aime_2025,AIME 2025,73.82851221187494
+kimi-k2,Kimi K2,arena_hard,Arena-Hard Auto,56.00146211723795
+kimi-k2,Kimi K2,gpqa_diamond,GPQA Diamond,77.7621830057252
+kimi-k2,Kimi K2,hle,HLE (Humanity's Last Exam),13.178921962838196
+kimi-k2,Kimi K2,hmmt_2025,HMMT Feb 2025,49.29058857473595
+kimi-k2,Kimi K2,ifeval,IFEval,85.06719277294704
+kimi-k2,Kimi K2,livecodebench,LiveCodeBench,67.85180067796188
+kimi-k2,Kimi K2,math_500,MATH-500,96.847137010462
+kimi-k2,Kimi K2,mmlu_pro,MMLU-Pro,82.67657804075459
+kimi-k2,Kimi K2,osworld,OSWorld,45.07900661287901
+kimi-k2,Kimi K2,simpleqa,SimpleQA,38.12298505475506
+kimi-k2,Kimi K2,swe_bench_verified,SWE-bench Verified,62.033632238134985
+llama-4-maverick,Llama 4 Maverick,arc_agi_1,ARC-AGI-1,11.007133566171216
+llama-4-maverick,Llama 4 Maverick,bigcodebench,BigCodeBench,45.633698672232974
+llama-4-maverick,Llama 4 Maverick,chatbot_arena_elo,Chatbot Arena Elo,1387.41065064708
+llama-4-maverick,Llama 4 Maverick,gpqa_diamond,GPQA Diamond,66.394978032235
+llama-4-maverick,Llama 4 Maverick,humaneval,HumanEval,85.07150338317825
+llama-4-maverick,Llama 4 Maverick,livecodebench,LiveCodeBench,54.56981823092046
+llama-4-maverick,Llama 4 Maverick,math_500,MATH-500,87.95704852920883
+llama-4-maverick,Llama 4 Maverick,mmmu,MMMU,72.68523307533256
+llama-4-maverick,Llama 4 Maverick,simpleqa,SimpleQA,32.281246706196086
+llama-4-maverick,Llama 4 Maverick,swe_bench_verified,SWE-bench Verified,53.42204732696485
+llama-4-maverick,Llama 4 Maverick,terminal_bench_1,Terminal-Bench 1.0,24.380263042812935
+minimax-m2,MiniMax-M2,aime_2024,AIME 2024,90.64783985775482
+minimax-m2,MiniMax-M2,aime_2025,AIME 2025,83.1667510224774
+minimax-m2,MiniMax-M2,chatbot_arena_elo,Chatbot Arena Elo,1423.6314795719875
+minimax-m2,MiniMax-M2,gpqa_diamond,GPQA Diamond,80.12309587784397
+minimax-m2,MiniMax-M2,hle,HLE (Humanity's Last Exam),21.394061019436872
+minimax-m2,MiniMax-M2,humaneval,HumanEval,86.32942703156854
+minimax-m2,MiniMax-M2,ifeval,IFEval,83.97941346370959
+minimax-m2,MiniMax-M2,math_500,MATH-500,96.03562630249242
+minimax-m2,MiniMax-M2,mmlu,MMLU,86.74852304735406
+minimax-m2,MiniMax-M2,mmlu_pro,MMLU-Pro,81.84416659085726
+minimax-m2,MiniMax-M2,mmmu,MMMU,78.61741016353731
+minimax-m2,MiniMax-M2,simpleqa,SimpleQA,33.9551557753359
+minimax-m2,MiniMax-M2,swe_bench_pro,SWE-bench Pro,36.78476886578649
+minimax-m2,MiniMax-M2,swe_bench_verified,SWE-bench Verified,64.65745385041521
+minimax-m2,MiniMax-M2,terminal_bench,Terminal-Bench 2.0,21.90712393532955
+o3-mini-high,o3-mini (high),aime_2024,AIME 2024,87.08184792521956
+o3-mini-high,o3-mini (high),arc_agi_1,ARC-AGI-1,39.672072182331966
+o3-mini-high,o3-mini (high),arc_agi_2,ARC-AGI-2,15.213012208266838
+o3-mini-high,o3-mini (high),arena_hard,Arena-Hard Auto,82.40515838001583
+o3-mini-high,o3-mini (high),chatbot_arena_elo,Chatbot Arena Elo,1431.717319132243
+o3-mini-high,o3-mini (high),frontiermath,FrontierMath,15.691804802240181
+o3-mini-high,o3-mini (high),hle,HLE (Humanity's Last Exam),23.28621313620945
+o3-mini-high,o3-mini (high),hmmt_2025,HMMT Feb 2025,74.90279930633709
+o3-mini-high,o3-mini (high),humaneval,HumanEval,88.37570127058123
+o3-mini-high,o3-mini (high),ifeval,IFEval,86.77110212675996
+o3-mini-high,o3-mini (high),livecodebench,LiveCodeBench,71.29393254840355
+o3-mini-high,o3-mini (high),math_500,MATH-500,96.27230265396744
+o3-mini-high,o3-mini (high),simpleqa,SimpleQA,39.30893751653516
+o3-mini-high,o3-mini (high),swe_bench_verified,SWE-bench Verified,64.583375897514
+o3-mini-high,o3-mini (high),usamo_2025,USAMO 2025,23.798694210992736

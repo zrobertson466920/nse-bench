@@ -1,0 +1,29 @@
+{
+  "selected_benchmarks": [
+    "Codeforces Rating",
+    "HMMT Nov 2025",
+    "MMLU-Pro",
+    "ARC-AGI-2",
+    "Chatbot Arena Elo"
+  ],
+  "selected_benchmark_ids": [
+    "codeforces_rating",
+    "hmmt_nov_2025",
+    "mmlu_pro",
+    "arc_agi_2",
+    "chatbot_arena_elo"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize average MAE of ridge predictions for non-selected benchmarks",
+  "full_greedy_sequence": [
+    "Codeforces Rating",
+    "HMMT Nov 2025",
+    "MMLU-Pro",
+    "ARC-AGI-2",
+    "Chatbot Arena Elo",
+    "Arena-Hard Auto",
+    "CMIMC 2025",
+    "HMMT Feb 2025"
+  ]
+}

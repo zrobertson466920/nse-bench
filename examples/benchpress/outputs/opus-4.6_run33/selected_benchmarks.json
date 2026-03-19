@@ -1,0 +1,29 @@
+{
+  "selected_benchmarks": [
+    "HMMT Nov 2025",
+    "AIME 2024",
+    "Arena-Hard Auto",
+    "SimpleQA",
+    "FrontierMath"
+  ],
+  "selected_benchmark_ids": [
+    "hmmt_nov_2025",
+    "aime_2024",
+    "arena_hard",
+    "simpleqa",
+    "frontiermath"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "Minimize LOO-model MAE on observed entries, Ridge alpha=10, iterative-SVD-completed matrix",
+  "full_greedy_order": [
+    "HMMT Nov 2025",
+    "AIME 2024",
+    "Arena-Hard Auto",
+    "SimpleQA",
+    "FrontierMath",
+    "HMMT Feb 2025",
+    "LiveBench",
+    "OSWorld"
+  ]
+}

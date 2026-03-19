@@ -1,0 +1,31 @@
+{
+  "method": "Ridge regression from 7 selected benchmarks (alpha=1.0)",
+  "overall_mae": 8.98,
+  "per_benchmark_mae": {
+    "AIME 2024": 8.32,
+    "ARC-AGI-1": 21.73,
+    "ARC-AGI-2": 13.68,
+    "Arena-Hard Auto": 27.51,
+    "BrowseComp": 14.07,
+    "BRUMO 2025": 4.32,
+    "Chatbot Arena Elo": 20.76,
+    "CMIMC 2025": 3.97,
+    "FrontierMath": 12.74,
+    "GPQA Diamond": 6.18,
+    "HLE (Humanity's Last Exam)": 6.81,
+    "HMMT Feb 2025": 5.37,
+    "IFEval": 3.17,
+    "MATH-500": 1.77,
+    "MathArena Apex 2025": 20.69,
+    "MMLU": 1.46,
+    "MMMU": 2.65,
+    "OSWorld": 15.01,
+    "SMT 2025": 4.34,
+    "SWE-bench Pro": 4.49,
+    "Terminal-Bench 2.0": 10.96,
+    "Terminal-Bench 1.0": 12.91
+  },
+  "evaluation_protocol": "Leave-one-model-out CV on filtered matrix (65x29)",
+  "n_predictor_benchmarks": 7,
+  "achieves_mae_under_5": false
+}

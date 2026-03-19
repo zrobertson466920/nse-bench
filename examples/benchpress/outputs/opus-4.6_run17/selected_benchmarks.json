@@ -1,0 +1,23 @@
+{
+  "selected_benchmarks": [
+    "AIME 2025",
+    "SimpleQA",
+    "MMLU-Pro",
+    "LiveCodeBench",
+    "SWE-bench Verified",
+    "HumanEval",
+    "Codeforces Rating"
+  ],
+  "selected_benchmark_ids": [
+    "aime_2025",
+    "simpleqa",
+    "mmlu_pro",
+    "livecodebench",
+    "swe_bench_verified",
+    "humaneval",
+    "codeforces_rating"
+  ],
+  "n_selected": 7,
+  "selection_method": "greedy_forward_correlation_coverage_obs_filtered",
+  "selection_criterion": "Greedy forward selection maximizing avg max|corr| coverage over all 29 filtered benchmarks, restricted to benchmarks with >= 40 observations."
+}

@@ -1,0 +1,928 @@
+{
+  "seed": 20260226,
+  "reveal_k": 5,
+  "n_eval_models": 12,
+  "min_cells_per_model_to_eval": 15,
+  "eval_models": [
+    "claude-opus-4",
+    "claude-opus-4.1",
+    "deepseek-r1-0528",
+    "doubao-seed-2.0-pro",
+    "gemini-2.5-pro",
+    "gpt-4.1",
+    "grok-3-beta",
+    "grok-4",
+    "kimi-k2",
+    "llama-4-maverick",
+    "minimax-m2",
+    "o3-mini-high"
+  ],
+  "revealed": [
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_ids": [
+        "arena_hard",
+        "mmlu_pro",
+        "osworld",
+        "swe_bench_verified",
+        "terminal_bench_1"
+      ]
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_ids": [
+        "aime_2025",
+        "livebench",
+        "livecodebench",
+        "osworld",
+        "swe_bench_verified"
+      ]
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_ids": [
+        "arc_agi_2",
+        "chatbot_arena_elo",
+        "cmimc_2025",
+        "frontiermath",
+        "hmmt_2025"
+      ]
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_ids": [
+        "codeforces_rating",
+        "humaneval",
+        "livecodebench",
+        "mmlu_pro",
+        "video_mmu"
+      ]
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_ids": [
+        "cmimc_2025",
+        "ifbench",
+        "ifeval",
+        "livecodebench",
+        "terminal_bench"
+      ]
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_ids": [
+        "aime_2024",
+        "arc_agi_2",
+        "gpqa_diamond",
+        "mmlu_pro",
+        "mrcr_v2"
+      ]
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_ids": [
+        "gpqa_diamond",
+        "livecodebench",
+        "math_500",
+        "mmlu",
+        "terminal_bench_1"
+      ]
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_ids": [
+        "aime_2025",
+        "arc_agi_1",
+        "hmmt_2025",
+        "humaneval",
+        "math_500"
+      ]
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_ids": [
+        "codeforces_rating",
+        "humaneval",
+        "mmlu",
+        "swe_bench_pro",
+        "terminal_bench"
+      ]
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_ids": [
+        "aime_2024",
+        "arena_hard",
+        "ifeval",
+        "mmlu",
+        "mmlu_pro"
+      ]
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_ids": [
+        "aa_intelligence_index",
+        "browsecomp",
+        "codeforces_rating",
+        "livecodebench",
+        "terminal_bench_1"
+      ]
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_ids": [
+        "aime_2025",
+        "codeforces_rating",
+        "gpqa_diamond",
+        "mmlu",
+        "mmlu_pro"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "arc_agi_1"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "arc_agi_2"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "codeforces_rating"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "critpt"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "frontiermath"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "hmmt_2025"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "mmmu"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "swe_bench_pro"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "tau_bench_retail"
+    },
+    {
+      "model_id": "claude-opus-4",
+      "benchmark_id": "terminal_bench"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "frontiermath"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "humaneval"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "mmlu_pro"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "swe_bench_pro"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "terminal_bench"
+    },
+    {
+      "model_id": "claude-opus-4.1",
+      "benchmark_id": "terminal_bench_1"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "arc_agi_1"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "brumo_2025"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "codeforces_rating"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "humaneval"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "imo_2025"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "matharena_apex_2025"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "mmlu_pro"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "smt_2025"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "deepseek-r1-0528",
+      "benchmark_id": "usamo_2025"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "browsecomp"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "mathvision"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "mmmu"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "doubao-seed-2.0-pro",
+      "benchmark_id": "terminal_bench"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "aa_intelligence_index"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "arc_agi_1"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "arc_agi_2"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "arena_hard"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "brumo_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "chatbot_arena_elo"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "codeforces_rating"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "critpt"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "frontiermath"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "hmmt_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "hmmt_nov_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "imo_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "livebench"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "matharena_apex_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "mmlu_pro"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "mmmu"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "mrcr_v2"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "simplebench"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "smt_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "terminal_bench_1"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "usamo_2025"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "benchmark_id": "video_mmu"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "arc_agi_1"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "arena_hard"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "codeforces_rating"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "hmmt_2025"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "humaneval"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "mmmu"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "gpt-4.1",
+      "benchmark_id": "terminal_bench_1"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "arc_agi_1"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "chatbot_arena_elo"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "humaneval"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "mmlu_pro"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "grok-3-beta",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "aa_intelligence_index"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "aa_lcr"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "arc_agi_2"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "brumo_2025"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "chatbot_arena_elo"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "cmimc_2025"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "codeforces_rating"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "frontiermath"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "hmmt_nov_2025"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "imo_2025"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "matharena_apex_2025"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "mmlu_pro"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "mmmu"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "mmmu_pro"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "osworld"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "smt_2025"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "swe_bench_pro"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "terminal_bench"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "terminal_bench_1"
+    },
+    {
+      "model_id": "grok-4",
+      "benchmark_id": "usamo_2025"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "arena_hard"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "hmmt_2025"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "mmlu_pro"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "osworld"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "kimi-k2",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "arc_agi_1"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "bigcodebench"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "chatbot_arena_elo"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "humaneval"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "mmmu"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "benchmark_id": "terminal_bench_1"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "aime_2025"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "chatbot_arena_elo"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "gpqa_diamond"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "humaneval"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "mmlu"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "mmlu_pro"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "mmmu"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "swe_bench_pro"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "minimax-m2",
+      "benchmark_id": "terminal_bench"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "aime_2024"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "arc_agi_1"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "arc_agi_2"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "arena_hard"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "chatbot_arena_elo"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "frontiermath"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "hle"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "hmmt_2025"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "humaneval"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "ifeval"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "livecodebench"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "math_500"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "simpleqa"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "swe_bench_verified"
+    },
+    {
+      "model_id": "o3-mini-high",
+      "benchmark_id": "usamo_2025"
+    }
+  ]
+}

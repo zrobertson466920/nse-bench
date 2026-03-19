@@ -1,0 +1,116 @@
+{
+  "data_discovery": {
+    "raw_schema": "JSON with top-level keys: models (list of 83 dicts with id/name/provider/etc), benchmarks (list of 49 dicts with id/name/category/metric), scores (list of 1390 dicts with model_id/benchmark_id/score/reference_url), generated (timestamp string)",
+    "extraction_decisions": "Mapped scores to (model_id, benchmark_id) pairs. Resolved 15 duplicate pairs by averaging (all were identical). Used benchmark names as column headers. No joins needed \u2014 flat score list with foreign keys to models and benchmarks.",
+    "n_models_raw": 83,
+    "n_benchmarks_raw": 49
+  },
+  "data": {
+    "n_models": 65,
+    "n_benchmarks": 29,
+    "missing_fraction": 0.41803713527851455,
+    "preprocessing": "Filtered to benchmarks with >=15 models and models with >=10 benchmarks (iterative until stable: 65 models x 29 benchmarks). Per-benchmark min-max normalization to [0,100]. Mean imputation of remaining NaN for SVD. Cleaned matrix saved in normalized form.",
+    "benchmarks_used": [
+      "GPQA Diamond",
+      "AIME 2025",
+      "MMLU",
+      "MMLU-Pro",
+      "SWE-bench Verified",
+      "MATH-500",
+      "LiveCodeBench",
+      "FrontierMath",
+      "HLE (Humanity's Last Exam)",
+      "ARC-AGI-2",
+      "BrowseComp",
+      "SimpleQA",
+      "IFEval",
+      "HumanEval",
+      "Codeforces Rating",
+      "OSWorld",
+      "MMMU",
+      "Arena-Hard Auto",
+      "Chatbot Arena Elo",
+      "SWE-bench Pro",
+      "AIME 2024",
+      "HMMT Feb 2025",
+      "Terminal-Bench 2.0",
+      "Terminal-Bench 1.0",
+      "ARC-AGI-1",
+      "BRUMO 2025",
+      "SMT 2025",
+      "CMIMC 2025",
+      "MathArena Apex 2025"
+    ]
+  },
+  "rank_analysis": {
+    "method": "SVD on mean-imputed, per-benchmark min-max normalized [0,100], column-centered matrix",
+    "effective_rank": 3,
+    "variance_explained_by_rank": 0.6017355750496151,
+    "singular_values": [
+      503.485132881462,
+      338.0180549609991,
+      218.17651480705976,
+      200.71125927240695,
+      172.47969578553474,
+      165.3069470699276,
+      151.63889499610775,
+      145.83896886946962,
+      132.83856014917998,
+      119.6454380999121
+    ],
+    "justification": "First component captures 36.7% of variance; first 3 capture 60.2%. After rank 3, each additional component adds <6%. The 90% threshold gives rank 13, but the spectral gap after component 1 (36.7% vs 16.6%) and the elbow at rank 2-3 suggest the dominant structure is rank 2-3 with a long tail of smaller factors. Reporting effective rank = 3 based on elbow criterion."
+  },
+  "benchmark_selection": {
+    "method": "greedy_forward_selection",
+    "selected_benchmarks": [
+      "AIME 2024",
+      "ARC-AGI-2",
+      "MMLU",
+      "HMMT Feb 2025",
+      "SWE-bench Verified"
+    ],
+    "n_selected": 5,
+    "selection_criterion": "minimize leave-one-out ridge regression MAE on normalized 0-100 scale over the filtered matrix"
+  },
+  "prediction": {
+    "method": "ridge_regression",
+    "overall_mae": 9.790284248835759,
+    "per_benchmark_mae": {
+      "GPQA Diamond": 7.8209027103115085,
+      "AIME 2025": 12.081703962109753,
+      "MMLU-Pro": 6.860968028643138,
+      "MATH-500": 12.596063670042707,
+      "LiveCodeBench": 9.691201601348144,
+      "FrontierMath": 10.689871312173844,
+      "HLE (Humanity's Last Exam)": 9.959851033104064,
+      "BrowseComp": 8.524418144957858,
+      "SimpleQA": 14.086782005022421,
+      "IFEval": 7.631479999693518,
+      "HumanEval": 8.489800251635977,
+      "Codeforces Rating": 11.24048613329711,
+      "OSWorld": 9.568661836318688,
+      "MMMU": 13.630042366551617,
+      "Arena-Hard Auto": 11.466349238753454,
+      "Chatbot Arena Elo": 10.523916906179432,
+      "SWE-bench Pro": 8.979968145556494,
+      "Terminal-Bench 2.0": 9.620399613981034,
+      "Terminal-Bench 1.0": 10.20878252862313,
+      "ARC-AGI-1": 10.966540983836131,
+      "BRUMO 2025": 6.813328618064718,
+      "SMT 2025": 7.257657188122984,
+      "CMIMC 2025": 8.23594574009809,
+      "MathArena Apex 2025": 8.021699953632398
+    },
+    "evaluation_protocol": "leave-one-out on filtered normalized matrix (65 models x 29 benchmarks)",
+    "n_predictor_benchmarks": 5,
+    "achieves_mae_under_5": false
+  },
+  "canonical_evaluation": {
+    "canonical_overall_mae": 15.687921419110179,
+    "n_predictions": 196,
+    "n_heldout_pairs": 196,
+    "coverage": 1.0,
+    "method": "SVD rank-5"
+  },
+  "methodology_notes": "Pipeline: (1) Extract 83x49 raw matrix from flat score list, average duplicates. (2) Filter to 65x29 submatrix (>=15 models per benchmark, >=10 benchmarks per model). (3) Min-max normalize per benchmark to [0,100]. (4) Mean-impute for SVD; SVD reveals dominant rank 1-3 structure (60.2% variance) with long tail. (5) Greedy forward selection of 5 benchmarks minimizing LOO ridge MAE. (6) Ridge regression predictor. (7) Canonical eval uses per-target ridge from 5 revealed benchmarks trained on other models. Key choices: filtering thresholds (15/10), min-max normalization (aligns with canonical protocol), ridge regression (handles collinearity from low-rank structure), greedy selection (practical for 29 benchmarks). Main caveat: 41.8% missing data in filtered matrix means mean imputation may bias SVD; iterative imputation could improve rank estimates."
+}

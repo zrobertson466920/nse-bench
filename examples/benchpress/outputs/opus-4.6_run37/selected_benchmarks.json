@@ -1,0 +1,19 @@
+{
+  "selected_benchmarks": [
+    "HMMT Feb 2025",
+    "ARC-AGI-2",
+    "ARC-AGI-1",
+    "LiveCodeBench",
+    "SimpleQA"
+  ],
+  "selected_benchmark_ids": [
+    "hmmt_2025",
+    "arc_agi_2",
+    "arc_agi_1",
+    "livecodebench",
+    "simpleqa"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize pairwise cross-validated Ridge MAE on min-max normalized 0-100 scale, handling sparsity by using only jointly-observed predictor subsets per target"
+}

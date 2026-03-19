@@ -1,0 +1,61 @@
+{
+  "selected_benchmarks": [
+    "BRUMO 2025",
+    "BrowseComp",
+    "Tau-Bench Retail",
+    "GSM8K",
+    "CMIMC 2025"
+  ],
+  "selected_benchmark_ids": [
+    "brumo_2025",
+    "browsecomp",
+    "tau_bench_retail",
+    "gsm8k",
+    "cmimc_2025"
+  ],
+  "n_selected": 5,
+  "method": "greedy_forward_selection",
+  "selection_criterion": "minimize LOO prediction MAE on normalized 0-100 scale using ridge regression",
+  "greedy_trace": [
+    {
+      "step": 1,
+      "benchmark": "BRUMO 2025",
+      "loo_mae": 15.2975
+    },
+    {
+      "step": 2,
+      "benchmark": "BrowseComp",
+      "loo_mae": 13.3247
+    },
+    {
+      "step": 3,
+      "benchmark": "Tau-Bench Retail",
+      "loo_mae": 11.2475
+    },
+    {
+      "step": 4,
+      "benchmark": "GSM8K",
+      "loo_mae": 9.305
+    },
+    {
+      "step": 5,
+      "benchmark": "CMIMC 2025",
+      "loo_mae": 7.0823
+    },
+    {
+      "step": 6,
+      "benchmark": "HLE (Humanity's Last Exam)",
+      "loo_mae": 6.985
+    },
+    {
+      "step": 7,
+      "benchmark": "LiveBench",
+      "loo_mae": 6.9518
+    },
+    {
+      "step": 8,
+      "benchmark": "SimpleQA",
+      "loo_mae": 6.8812
+    }
+  ]
+}
